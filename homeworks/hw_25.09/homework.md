@@ -2,7 +2,6 @@
 
 **Дисциплина:** ОП.03 «Информационные технологии»
 
-```
 | Поле                   | Значение                                      |
 | ---------------------- | --------------------------------------------- |
 | Фамилия, имя, отчество | Балан Степан Александрович                    |
@@ -11,13 +10,11 @@
 | Тема работы            | Контролируемая таблица заявок                 |
 | Дата сдачи             | 20.10.2026                                    |
 | Коммит                 | `hw-05`                                       |
-```
 
 ---
 
 ## 1. Мой сайт, таблица и приёмник
 
-```
 | Поле                      | Значение                                                                 |
 | ------------------------- | ------------------------------------------------------------------------ |
 | Адрес репозитория         | https://github.com/barrystepan-spec/ga4-analytics-lab                    |
@@ -27,7 +24,6 @@
 | Таблица Google Sheets     | https://docs.google.com/spreadsheets/d/1WvJ-zmfB4CxAwBth2nF7WyXkodCSwFKYiLDmgYiIfg/edit |
 | SPREADSHEET_ID            | 1WvJ-zmfB4CxAwBth2nF7WyXkodCSwFKYiLDmgYiIfg                             |
 | Apps Script Web App       | https://script.google.com/macros/s/AKfycbyoolCeeFuCouNQbmw-0-HmNuDQRnX93ZDIGWr1t0ZB_vxgBdgjYx6ZZ-M2TCAVcljS/exec |
-```
 
 Доступ к таблице открыт только преподавателю (роль «Читатель»). Доступ «всем, у кого есть ссылка» не открывался.
 
@@ -79,17 +75,17 @@ const SPREADSHEET_ID = '1WvJ-zmfB4CxAwBth2nF7WyXkodCSwFKYiLDmgYiIfg';
 
 Отправлена форма без UTM в адресе страницы.
 
-| Поле | Значение |
-| --- | --- |
-| request_id | `REQ-095B6C03-DD16-4CF5-A0B0-2DCBFFC9D5CA` |
-| created_at | 02.10.2026 8:57:56 |
-| name | Балан Степан |
-| email | balanstepan@mail.ru |
-| direction | backend |
-| utm_source | direct |
-| utm_medium | none |
-| utm_campaign | not_set |
-| status | new |
+| Поле          | Значение                                      |
+| ------------- | --------------------------------------------- |
+| request_id    | `REQ-095B6C03-DD16-4CF5-A0B0-2DCBFFC9D5CA`   |
+| created_at    | 02.10.2026 8:57:56                            |
+| name          | Балан Степан                                  |
+| email         | balanstepan@mail.ru                           |
+| direction     | backend                                       |
+| utm_source    | direct                                        |
+| utm_medium    | none                                          |
+| utm_campaign  | not_set                                       |
+| status        | new                                           |
 
 Скриншот: ![Заявка без меток](screens/05-lead-direct.png)
 
@@ -103,17 +99,17 @@ const SPREADSHEET_ID = '1WvJ-zmfB4CxAwBth2nF7WyXkodCSwFKYiLDmgYiIfg';
 https://ga4-analytics-lab-sigma.vercel.app/contacts.html?utm_source=telegram&utm_medium=social&utm_campaign=lesson07
 ```
 
-| Поле | Значение |
-| --- | --- |
-| request_id | `REQ-8CA882A2-7BF2-4013-9277-702A4DCF5DA3` |
-| created_at | 20.10.2026 12:20:0… |
-| name | Тест UTM |
-| email | utm@example.com |
-| direction | backend |
-| utm_source | telegram |
-| utm_medium | social |
-| utm_campaign | lesson07 |
-| status | new |
+| Поле          | Значение                                      |
+| ------------- | --------------------------------------------- |
+| request_id    | `REQ-8CA882A2-7BF2-4013-9277-702A4DCF5DA3`   |
+| created_at    | 20.10.2026 12:20:0…                           |
+| name          | Тест UTM                                      |
+| email         | utm@example.com                               |
+| direction     | backend                                       |
+| utm_source    | telegram                                      |
+| utm_medium    | social                                        |
+| utm_campaign  | lesson07                                      |
+| status        | new                                           |
 
 Скриншот: ![Заявка с UTM](screens/06-lead-utm.png)
 
@@ -155,10 +151,8 @@ https://ga4-analytics-lab-sigma.vercel.app/contacts.html?utm_source=telegram&utm
 
 ## 10. Использование ИИ
 
-```
 | Вопрос                     | Ответ                                                                                                                                 |
 | -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
 | Что сделано самостоятельно | Создал таблицу, настроил список статусов и условное форматирование, вставил Code.gs, опубликовал Web App, обновил форму и script.js, отправил две заявки, сделал все скриншоты |
 | Что спрошено у модели      | Попросил помощь с оформлением бланка homework_05.md в формате предыдущей работы                                                       |
 | Что после этого изменено   | Проверил совпадение request_id и адресов со скриншотами, вставил свои данные в бланк                                                  |
-```
